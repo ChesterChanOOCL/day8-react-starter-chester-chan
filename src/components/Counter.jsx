@@ -33,7 +33,7 @@ const Counter = () => {
 
     return (
         <div>
-            <div className="numberOfRow-controller">
+            <div >
                 <p>Size: {input}</p>
                 <input
                     type="text"

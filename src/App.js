@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import ProductItem from "./components/ProductItem";
-import counter from "./components/Counter";
 import Counter from "./components/Counter";
+import MultipleCounter from "./components/MultipleCounter";
 function App() {
   return (
-    <div className="App">
-      <ProductItem></ProductItem>
-        <div className="counterRow"> <Counter></Counter> </div>
+      <div className="App">
 
-    </div>
+          {/*<div className="counterRow"><Counter></Counter></div>*/}
+          <div className="counterRow"><MultipleCounter></MultipleCounter></div>
+      </div>
   );
 }
 
